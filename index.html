@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Larissa da Silva Oliveira">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/styles.css">
+    <title>Projeto</title>
+  </head>
+  <body style="background-color: white;">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
+
+<!-- Website -->
+<!--barra de navegação-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light pt-3">
+  <img src="src/img/logotipo.JPG" width="50" height="50" alt="Logo Carolinny Carvalho">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Procedimentos <span class="sr-only">(página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Produtos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Ação</a>
+          <a class="dropdown-item" href="#">Outra ação</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Algo mais aqui</a>
+        </div>
+      </li>
+      <li class="nav-item pb-3">
+        <a class="nav-link disabled" href="#">Desativado</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0 pb-3">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Marcar Sessão</button>
+    </form>
+  </div>
+</nav>
+
+<!--banner-->
+<div class="container-fluid">
+<div id="mainSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#mainSlider" data-slide-to="1"></li>
+    <li data-target="#mainSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="src/img/img1.png" class="d-block w-100" alt="banner 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Olá!</h5>
+        <p>bem-vindo</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="src/img/img2.jpg" class="d-block w-100" alt="banner 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>testing</h5>
+        <p>testing</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="src/img/img3.jpg" class="d-block w-100" alt="banner 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>testing</h5>
+        <p>testing</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+</div>
+
+<!--Parágrafo-->
+<h1 class="text-center pt-5">Bem-vinda à Carol Estética e Massoterapia</h1>
+<h2 class="text-center pb-4">Todos os serviços são certificados</h2>
+
+<!--redes sociais-->
+
+<section id="encontre-nos" class="bg-light text-secondary">
+  <div class="container p-5">
+    <div class="row">
+      <article class="col-12 col-md-4 mb-5 mb-md-0">
+        <div class="row mb-2">
+          <div class="col-3">
+            <img src="src/img/whatsapp.png" width="50" height="50" alt="WhatsApp Carolinny Carvalho">
+          </div>
+
+          <div class="col-9">
+            <p class="mb-0"> WhatsApp </p>
+            <p class="mb-0" datadetectors="off" x-apple-data-detectors="false"> (92) 99448-5669 </p>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <a class="btn btn-outline-info" href="https://api.whatsapp.com/send?phone=5592994485669" target="_blank"> Marcar Sessão </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-4 mb-5 mb-md-0">
+        <div class="row mb-2">
+          <div class="col-3">
+            <img src="src/img/instagram.png" width="50" height="50" alt="Instagram">
+          </div>
+
+          <div class="col-9">
+            <p class="mb-0"> siga-me nas Redes Sociais</p>
+            <p class="mb-0"> @carol_estetica_e_massoterapia </p>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <a class="btn btn-outline-info" href="https://www.instagram.com/carol_estetica_e_massoterapia/?igshid=y4h47ize6vwq" target="_blank"> Acessar </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-4">
+        <div class="row mb-2">
+          <div class="col-3">
+            <img src="src/img/mapa.png" width="50" height="50" alt="mapa">
+          </div>
+
+          <div class="col-9">
+            <p class="mb-0">Localização</p>
+            <p class="mb-0 d-none d-md-block"> R. Visc. de Porto Alegre - Centro </p>
+            <p class="mb-0 d-block d-md-none"> Rua Visconde de Porto Alegre, 14 </p>
+            <p class="mb-0 d-block d-md-none"> Praça 14 </p>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <a class="btn btn-outline-info" href="https://www.google.com.br/maps/place/Carol+Est%C3%A9tica+e+Massoterapia/@-3.1269996,-60.0150937,17z/data=!3m1!4b1!4m5!3m4!1s0x926c052aae0a8feb:0xc093318207d2d164!8m2!3d-3.127005!4d-60.012905" target="_blank"> Como Chegar </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!--Paragrafos-->
+<body>
+<section id="apresentacao" class="text-white bg-info">
+  <div class="container px-5 pb-5">
+    <div class="row">
+      <article class="col-12 col-md-4 block-one p-5">
+        <h3 class="mb-4"> Quem Somos </h3>
+        <p class="mb-0"> Possuimos opções de tratamentos estéticos que podem ser realizadas em pacotes ou unidade.
+          A Carol Estética e Massoterapia possui público restrito, atendendo somente mulheres.</p>
+      </article>
+ </body>     
+
+      <article class="col-12 col-md-4 block-two p-5">
+        <h3 class="mb-4"> Carolinny Carvalho </h3>
+        <p class="mb-0"> Massoterapeuta, Esteticista Facial/Corporal, e acadêmica em Biomedicina.</p>
+      </article>
+
+      <article class="col-12 col-md-4 block-three p-5">
+        <h3 class="mb-4"> Horário de Atendimento </h3>
+        <p class="mb-0"> Segunda à Sábado, </p>
+        <p class="mb-0"> das 9h às 19h </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!--Procedimentos-->
+<section id="especialidades">
+  <div class="container p-5">
+    <div class="row mb-1">
+      <h2 class="col-12"> Procedimentos </h2>
+      <p class="m-0 col-12 text-secondary section-description d-none d-md-block"> Nossas instalações atendem diversas especialidades veterinárias, trazendo os mais avançados recursos de saúde. Marque uma consulta via WhatsApp. </p>
+      <p class="m-0 col-12 text-secondary section-description d-block d-md-none"> Nossas instalações atendem diversas especialidades veterinárias. Marque uma consulta via WhatsApp. </p>
+      
+      <div class="col-12 mt-3">
+        <a class="btn btn-outline-info" href="https://api.whatsapp.com/send?phone=5592994485669" target="_blank"> Agendar Sessão </a>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/pele1.png" width="50" height="50" alt="Limpeza de Pele">
+          <p class="mt-2 mb-0"> Limpeza de Pele </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/pele2.png" width="50" height="50" alt="Microagulhamento">
+          <p class="mt-2 mb-0"> Microagulhamento </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/pele3.png" width="50" height="50" alt="Drenagem Linfática">
+          <p class="mt-2 mb-0"> Drenagem Linfática </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/massagem1.png" width="50" height="50" alt="Drenagem Pós Operatório">
+          <p class="mt-2 mb-0"> Drenagem Pós Operatório </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/massagem2.png" width="50" height="50" alt="Massagem Modeladora">
+          <p class="mt-2 mb-0"> Massagem Modeladora </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/massagem1.png" width="50" height="50" alt="Detox Corporal">
+          <p class="mt-2 mb-0 d-none d-md-block"> Detox Corporal </p>
+        </div>
+      </div>
+   
+      <div class="col-12 col-md-4 p-4">
+        <div class="px-4 block shadow">
+          <img class="mt-5" src="src/img/pele1.png" width="50" height="50" alt="Limpeza de Pele Premium">
+          <p class="mt-2 mb-0"> Limpeza de Pele Premium </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Produtos-->
+<section id="pet-shop" class="bg-info">
+  <div class="container p-5">
+    <div class="row mb-1">
+      <h2 class="col-12"> Produtos </h2>
+      <p class="m-0 col-12 text-secondary section-description d-none d-md-block">  </p>
+      <p class="m-0 col-12 text-secondary section-description d-block d-md-none"> </p>
+
+      <div class="col-12 mt-3">
+        <a class="btn btn-outline-info" href="https://api.whatsapp.com/send?phone=5592994485669" target="_blank"> Disk Entrega </a>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+
+      <div class="col-12 col-md-4 p-4 block">
+        <img class="shadow" src="" alt="Produtos">	
+        <p class="text-secondary mb-0 mt-3"> Produtos </p>
+      </div>
+    </div>
+  </div>
+</section>
